@@ -1,0 +1,8 @@
+
+*.lst
+*.exe
+/lab1/*.o
+/lab2/*.o
+/lab3/*.o
+/lab4/*.o
+

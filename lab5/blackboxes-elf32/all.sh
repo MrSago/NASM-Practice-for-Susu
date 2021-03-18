@@ -4,6 +4,7 @@
 file="blackbox*"
 for var in $file
 do
-    ./bbd $var check.asm
+    ./bbd.sh $var check.asm
     echo -ne "\n"
 done
+

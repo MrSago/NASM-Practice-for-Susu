@@ -1,25 +1,24 @@
 
-.github		export-ignore
-.gitattributes	export-ignore
-.gitignore	export-ignore
+.gitattributes      export-ignore
+.gitignore          export-ignore
 
 * text=auto
 
 # GitHub
-.github		text
-.gitattributes	text
-.gitignore	text
+.gitattributes      text
+.gitignore          text
 
 # Source files
-*.asm		text
-*.py		text
+*.asm               text
+*.py                text
 
-# Listings objects and executes
-*.lst		text
-*.o		binary
-*.obj		binary
-*.exe		binary
+# Shell files
+*.sh                text
+
+# Objects files
+*.o                 binary
+*.obj               binary
 
 # Pdf files
-*.pdf
+*.pdf               binary
 

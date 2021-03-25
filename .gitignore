@@ -1,8 +1,14 @@
 
 *.lst
 *.exe
+
 /lab1/*.o
 /lab2/*.o
 /lab3/*.o
 /lab4/*.o
+
+/lab1/*.obj
+/lab2/*.obj
+/lab3/*.obj
+/lab4/*.obj
 
